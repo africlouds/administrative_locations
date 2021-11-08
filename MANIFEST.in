@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include administrative_locations *.css
+recursive-include administrative_locations *.csv
+recursive-include administrative_locations *.html
+recursive-include administrative_locations *.ico
+recursive-include administrative_locations *.js
+recursive-include administrative_locations *.json
+recursive-include administrative_locations *.md
+recursive-include administrative_locations *.png
+recursive-include administrative_locations *.py
+recursive-include administrative_locations *.svg
+recursive-include administrative_locations *.txt
+recursive-exclude administrative_locations *.pyc
