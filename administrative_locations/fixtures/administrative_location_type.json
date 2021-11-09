@@ -1,0 +1,80 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "Country",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "Country",
+  "old_parent": "",
+  "parent": null,
+  "parent_administrative_location_type": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "Province",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "Province",
+  "old_parent": "Country",
+  "parent": "Country",
+  "parent_administrative_location_type": "Country",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "District",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "District",
+  "old_parent": "Province",
+  "parent": "Province",
+  "parent_administrative_location_type": "Province",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "Sector",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "Sector",
+  "old_parent": "District",
+  "parent": "District",
+  "parent_administrative_location_type": "District",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "Cell",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "Cell",
+  "old_parent": "Sector",
+  "parent": "Sector",
+  "parent_administrative_location_type": "Sector",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Administrative Location Type",
+  "is_group": 1,
+  "location_type_name": "Village",
+  "modified": "2021-11-08 19:15:16.363838",
+  "name": "Village",
+  "old_parent": "Cell",
+  "parent": "Cell",
+  "parent_administrative_location_type": "Cell",
+  "parentfield": null,
+  "parenttype": null
+ }
+]
