@@ -9,7 +9,7 @@ app_color = "grey"
 app_email = "info@africlouds.com"
 app_license = "MIT"
 
-fixtures = ['Administrative Location Type', 'Administrative Location']
+fixtures = ['Administrative Location Type']
 
 # Includes in <head>
 # ------------------
