@@ -13,4 +13,4 @@ class AdministrativeLocation(NestedSet):
             self.name = self.location_name + \
                 " (%s)" % parent_location.location_name
         else:
-            self.location_name
+            self.name = self.location_name
