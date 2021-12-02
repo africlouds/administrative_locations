@@ -61,7 +61,7 @@
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-11-08 19:13:40.192649",
+ "modified": "2021-11-25 10:57:35.810540",
  "modified_by": "Administrator",
  "module": "Administrative Locations",
  "name": "Administrative Location Type",
@@ -79,6 +79,15 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
   }
  ],
  "sort_field": "modified",
